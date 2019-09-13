@@ -1,0 +1,27 @@
+.footer img{
+    width: 11.3%;
+    height: 120px;
+}
+.footer{
+    background-color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+.btnC{
+    float: right;
+    margin: 30px;
+    border: none;
+    background: none;
+    color: black;
+}
+.Contact{
+    width: auto; 
+    float: right; 
+    margin-top: 30px;
+}
+#teste{
+    background-color: black;
+    height: 1px;
+}
+
