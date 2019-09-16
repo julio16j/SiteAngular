@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./aboutus.component.css']
 })
 export class AboutusComponent implements OnInit {
-
+  Hover = [];
   constructor() { }
 
   ngOnInit() {
-    alert("funcionou");
+    for (let i = 0; i<5; i++){
+      this.Hover.push(false);
   }
+}
 
 }

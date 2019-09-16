@@ -1,0 +1,46 @@
+body{
+    background-color: #1f1d1b;
+}
+.bloco{
+    width: 15%;
+    float: left;
+}
+.content{
+    padding-top: 10px;
+}
+.Meio{
+    width: 70%;
+    display: inline-block;
+}
+#esquerda{
+    background-color: #1f1d1b;
+    height: 530px;
+    background-size: 100% 100%;
+}
+#direita{
+    background-color: #1f1d1b;
+    height: 530px;
+    background-size: 100% 100%;
+}
+#imagem{
+    width: 100%;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+p{
+    position: relative;
+    right: -5%;
+    text-align: left;
+    font-size: 20px;
+}
+*{
+    color: white;
+    text-shadow: 1px 1px #111111;
+}

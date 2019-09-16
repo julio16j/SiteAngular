@@ -1,0 +1,85 @@
+/*Tags--------------------*/
+body{
+    background-color: #1f1d1b;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+p{
+    position: relative;
+    right: -5%;
+    text-align: left;
+    font-size: 20px;
+}
+
+*{
+    color: white;
+    text-shadow: 1px 1px #111111;
+}
+
+/*Classes--------------------*/
+
+.bloco{
+    width: 15%;
+    float: left;
+}
+.content{
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.Meio{
+    border: 1px solid rgba(255,255,255,0.7);
+    margin-bottom: 30px;
+}
+.Meio img{
+    height: 500px;
+}
+.membro{
+    width: 30%;
+    display: inline-block;
+    padding:20px;
+    margin: auto;
+    margin-left: 3%;
+}
+
+/*IDS--------------------*/
+
+#imagem{
+    width: 100%;
+}
+#equipe p{
+    color: white;
+    position: relative;
+    left: 40%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 230px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+#equipe{
+    margin:auto;
+}
+
+.luquinhas{
+    width: 100%;
+}
+.luquinhas:hover{
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+.description{
+    position: relative;
+    top: -63px;
+    right: -20%;
+    font-size: 12px;
+}
+.subdescription{
+    position: relative;
+    right: -20%;
+    font-size: 10px;
+}

@@ -1,2 +1,54 @@
 <app-header></app-header>
-<p>aboutus works!</p>
+<div class="container">
+    <div class = 'Meio'>
+        <img id ="imagem" src = 'assets/DeskView.jpg'>
+        <h1>Who Are We?</h1>
+        <p>We are a group of friends who got the initiative to work together, bringing together the highest<br> 
+           quality of each other to start a computer solutions, development and design company.<br> We 
+           started this project on 24/07/2019, where we developed our applications, websites, logos and<br>
+           brand. We use some projects to test our team skills, and from that point on, we try to work<br>
+           harder and more closely giving rise to DevAnts. But why this name? “Dev” means developer<br>
+           and “Ants” means ant, ants always work together; and "Devants" in French means front.<br>
+           Therefore, we are ahead of developing projects always working together, seeking the best for our clients.
+        
+    </div>
+    <div id = 'equipe'>
+        <p>MEET THE TEAM</p>
+
+        <div class = 'membro' (mouseover)="Hover[0]=true" (mouseout)="Hover[0]=false">
+            <img class="luquinhas" src="assets/DeskView.jpg" >
+            <span *ngIf="Hover[0]" class = 'description'>
+                Lucas Matheus<span class='subdescription'>CEO
+            </span></span>
+        </div>
+
+        <div class = 'membro' (mouseover)="Hover[1]=true" (mouseout)="Hover[1]=false">
+                <img class="luquinhas" src="assets/DeskView.jpg" >
+                <span *ngIf="Hover[1]" class = 'description'>
+                    Igor Henrique<span class='subdescription'>Gestor de Projetos
+                </span></span>
+        </div>
+
+        <div class = 'membro' (mouseover)="Hover[2]=true" (mouseout)="Hover[2]=false" >
+                <img class="luquinhas" src="assets/DeskView.jpg" >
+                <span *ngIf="Hover[2]" class = 'description'>
+                    Julio Cesar Vasconcelos<span class='subdescription'>Developer
+                </span></span>
+        </div>
+
+        <div class = 'membro' (mouseover)="Hover[3]=true" (mouseout)="Hover[3]=false" >
+                <img class="luquinhas" src="assets/DeskView.jpg" >
+                <span *ngIf="Hover[3]" class = 'description' (mouseover)="Hover[3]=true" >
+                    Daniel Vasconcelos<span class='subdescription'>Designer
+                </span></span>
+        </div>
+
+        <div class = 'membro' (mouseover)="Hover[4]=true" (mouseout)="Hover[4]=false">
+                <img class="luquinhas" src="assets/DeskView.jpg" >
+                <span *ngIf="Hover[4]" class = 'description'>
+                    Cayo Raony<span class='subdescription'>Developer
+                </span></span>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
