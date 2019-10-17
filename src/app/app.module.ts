@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SliderComponent } from './slider/slider.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { WedoComponent } from './wedo/wedo.component';
 import { WedidComponent } from './wedid/wedid.component';
@@ -17,7 +16,6 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SliderComponent,
     AboutusComponent,
     WedoComponent,
     WedidComponent,

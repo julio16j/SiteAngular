@@ -1,15 +1,22 @@
 <app-header></app-header>
+<section id="Main">
+    <section class = "formigas" (click)="highlight(0)" [ngClass]="toogle[0]">
+        <div id = "formiga1" ></div>
+        
+    </section>
+    <section  class = "formigas centro" (click)="highlight(1)" [ngClass]="toogle[1]" >
+        <div id = "formiga2"></div>
+        
+    </section>
+    <section class = "formigas direita" (click)="highlight(2)" [ngClass]="toogle[2]" >
+        <div id = "formiga3"></div>
+        
+    </section>
+</section>
 
-<div class="content">
     
-    <div  class="bloco">
-        <div  id="esquerda"></div>
-    </div>
-    <app-slider></app-slider>
+    
 
-    <div class='bloco' style="text-align: right; float: right" >
-        <div id = "direita">
-        </div>
-    </div>
-</div>
+    
+
 <app-footer></app-footer>

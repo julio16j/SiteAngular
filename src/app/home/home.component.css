@@ -1,34 +1,47 @@
-img{
-    max-width: 100%;
-    height: auto;
+section#Main{
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
 }
-.bloco{
-    width: 15%;
+
+section.formigas{
+    height: 70%;
+    width: 30%;
+    border: 1px solid #f333f3;
     float: left;
+    margin: o auto;
 }
-.content{
-    padding-top: 10px;
+
+section.formigas.centro{
+    margin-left: 5%;
 }
-#esquerda{
-    background-color: #1f1d1b;
-    height: 530px;
-    background-size: 100% 100%;
+
+section.formigas.direita{
+    float: right;
 }
-#direita{
-    background-color: #1f1d1b;
-    height: 530px;
-    background-size: 100% 100%;
+
+div#formiga1{
+    background-color: rgb(150,2,2);
+    height: 100%;
 }
-.arrow{
-    width: 50px;
+
+div#formiga2{
+    background-color: rgb(150,100,2);
+    height: 100%;
 }
-.pos50{
-    position: relative;
-    top:50%;
+
+div#formiga3{
+    background-color: rgb(150,2,100);
+    height: 100%;
 }
-#paddinD{
-    padding-right: 60%; 
+
+.aumente{
+    transform: scale(1.3);
+    z-index: 30;
 }
-#paddinE{
-    padding-left: 60%;
+
+.diminui{
+    transform: scale(1);
+    z-index: 1;
 }
+
