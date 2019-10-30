@@ -1,22 +1,32 @@
 <app-header></app-header>
 <section id="Main">
-    <section class = "formigas" (click)="highlight(0)" [ngClass]="toogle[0]">
-        <div id = "formiga1" ></div>
-        
-    </section>
-    <section  class = "formigas centro" (click)="highlight(1)" [ngClass]="toogle[1]" >
-        <div id = "formiga2"></div>
-        
-    </section>
-    <section class = "formigas direita" (click)="highlight(2)" [ngClass]="toogle[2]" >
-        <div id = "formiga3"></div>
-        
-    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id = "background1">
+            <h1>WELCOME</h1>
+            <p>Devants Solutions</p>
+            <img src="assets/LucasCort.jpg">
+          </div>
+          <div class="carousel-item" id = "background2">
+            <h1 routerLink="/Aboutus">About us</h1>
+            <p>A couple things about the team</p>
+            
+          </div>
+          <div class="carousel-item" id = "background3">
+            <img src = "assets/cayoCort.jpg" id = "i1">
+            <section>
+              <h1>Simulate Now</h1>
+              <p>Get your idea out of the paper<br>
+                Let us solve yours problems</p>
+            </section>
+            <img src = "assets/julioCort.jpg" id = "i2">
+          </div>
+        </div>
+      </div>      
 </section>
-
-    
-    
-
-    
-
 <app-footer></app-footer>

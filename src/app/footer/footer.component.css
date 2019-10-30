@@ -1,7 +1,4 @@
-.footer img{
-    width: 11.3%;
-    height: 120px;
-}
+
 .footer{
     background-color: white;
     background-size: 100% 100%;
@@ -9,19 +6,29 @@
     height: 120px;
 }
 .btnC{
-    float: right;
-    margin: 30px;
+    display: block;
+    margin: 30px auto;
     border: none;
     background: none;
-    color: black;
+    width: 15%;
+    cursor: pointer;
+}
+.btnC:hover{
+    box-shadow: 1px 1px 10px #111111;
 }
 .Contact{
-    width: auto; 
-    float: right; 
-    margin-top: 30px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 40%;
 }
 #teste{
     background-color: black;
     height: 1px;
 }
+.padding{
+  padding: 5px;
+}
+
 

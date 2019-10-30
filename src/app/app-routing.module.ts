@@ -2,8 +2,7 @@ import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { WedoComponent } from './wedo/wedo.component';
-import { WedidComponent } from './wedid/wedid.component';
+
 import { HomeComponent } from './home/home.component';
 
 
@@ -21,13 +20,10 @@ const routes: Routes = [
     component: AboutusComponent
   },
   {
-    path:'Wedo',
-    component: WedoComponent
+    path:'Simulatenow',
+    component: HomeComponent
   },
-  {
-    path:'Wedid',
-    component: WedidComponent
-  }
+  
 ];
 
 @NgModule({

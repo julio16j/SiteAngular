@@ -10,10 +10,12 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.toogle[0] = "nada";
-    this.toogle[1] = "nada" ;
-    this.toogle[2] = "nada";
-    
+
+    this.toogle[0] = "efeito1";
+    this.toogle[1] = "efeito2" ;
+    this.toogle[2] = "efeito3";
+    this.toogle[3] = "efeito4";
+    this.toogle[4] = "efeito5";
   }
   highlight(index){
     if(this.toogle[index]!="aumente"){
