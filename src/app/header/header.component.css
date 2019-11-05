@@ -1,3 +1,4 @@
+
 nav img{
   height: 150px;
   object-position: center center;
@@ -7,12 +8,12 @@ nav img{
   cursor: pointer;
 }
 nav ul#menu-desktop {
-  margin:0;
   padding:0;
   position: absolute;
-  left: 34%;
+  left: 47%;
   top: 35px;
-  font-size: 25px;
+  font-size: 20px;
+  width: 52%;
 }
 
 nav ul#menu-desktop li {
@@ -22,20 +23,22 @@ nav ul#menu-desktop li {
 
 nav ul#menu-desktop li a {
   padding: 30px 40px;
+  margin: 0 15px;  
   text-decoration: none;
   color:#FFF;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: -3px;
   font-family: Roboto, sans-serif;
   font-size: 80%;
   letter-spacing: 0.60;
 }
 nav ul#menu-desktop li a:hover{
   background-color: rgba(150,0,0,0.5);
-  
+  border-radius: 15%;
 }
 nav ul#menu-desktop li a.btn{
   background-color: rgb(120,0,0);
+  border-radius: 15%;
 }
 div#static{
   height: 100px;
@@ -45,7 +48,8 @@ div#fixed{
   position:fixed;
   top:0;
   z-index: 50;
-  background-color: #1f1d1b;
+  background-color: #303030;
+  border-bottom: 2px solid black;
 }
 div#clear{
   clear: both;

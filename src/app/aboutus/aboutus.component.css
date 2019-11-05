@@ -1,6 +1,8 @@
 /*Tags--------------------*/
 body{
     background-color: #1f1d1b;
+
+    padding-right: 0px;
 }
 h1{
     padding-top: 10px;
@@ -19,7 +21,79 @@ p{
 }
 
 /*Classes--------------------*/
+.container{
+    height: 700px;
+}
+#texto{
+    margin-top:30px;
+    padding: 20px;
+    border: 2px solid grey;
+}
+.formigas{
+    width: 1500px;
+    margin-top: 40px;
+    margin-left: -150px;
+    cursor: pointer;
+    display: inline-block;
+    
+}
 
+.formiga{
+    width: 200px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: 30px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.formiga:hover{
+    transform: rotateY(180deg);
+    transition: 
+}
+.nome{
+    opacity: 0.5;
+    position: absolute;
+    top:280px;
+    left: 120px; 
+    font-size: 40px;
+}
+
+/* Gambiarrazinha que não pode faltar, pra fazer o nome dos cara aparecer na imagem*/
+.todasformigas{
+    position: absolute;
+    top: 310px;
+}
+
+.igor{
+    
+    left: 137px;
+    width: 60px;
+}
+.daniel{
+    
+    left: 430px;
+    width: 60px;
+}
+.lucas{
+    
+    left: 735px;
+    width: 60px;
+}
+.cayo{
+    
+    left: 1030px;
+    width: 60px;
+}
+.julio{
+    
+    left: 1335px;
+    width: 60px;
+    z-index: 2;
+}
+
+
+
+/* Classes de Julio*/
 .bloco{
     width: 15%;
     float: left;
