@@ -80,7 +80,6 @@ p{
 
     /*transtion */
     transform: rotateY(180deg);
-    transition: 
 }
 /* esse transform é pra corrigir um pequeno bug que aparece quando usa left 50%*/
 
