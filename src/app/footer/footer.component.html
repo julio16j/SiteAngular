@@ -1,0 +1,27 @@
+<footer style = 'height: 80px;'>
+    <div class = 'footer'>
+      <div class = 'Contact' *ngIf = 'clicou'>
+        <form action="/request/contato">
+            <div class="form-group padding">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" name = 'address' class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group padding">
+                <label for="exampleFormControlInput01">Name</label>
+                <input type="txt" name = 'name' class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+            </div>
+            <div class="form-group padding">
+                <label for="exampleFormControlInput01">Subject</label>
+                <input type="txt" name = 'subject' class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+              </div>
+            <div class="form-group padding">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" name = 'message' id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class = 'btn btn-primary padding' type="submit">Enviar</button>
+          </form>
+      </div>          
+      <img class = 'formiga' src="assets/logoF.png" class = 'btnC' tyspe = 'submit' (click) = 'mostra()'>
+                
+    </div>
+</footer>
