@@ -3,15 +3,23 @@
     background-color: white;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 120px;
+    min-height: 120px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .btnC{
+    position: relative;
+    top: 50%;
     display: block;
     margin: 30px auto;
     border: none;
     background: none;
-    width: 15%;
+    width: 29%;
+    height: 130px;
     cursor: pointer;
+    transition: all 0.5s ease-out;
 }
 .btnC:hover{
     box-shadow: 1px 1px 10px #111111;
@@ -22,6 +30,9 @@
     margin: 0 auto;
     border-radius: 15px;
     width: 40%;
+}
+.Contact form button{
+  margin-bottom: 10px;
 }
 #teste{
     background-color: black;

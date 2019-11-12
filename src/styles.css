@@ -6,3 +6,8 @@
 .wid60{
     width: 60%;
 }
+/*Setando Fontes*/
+*{
+    font-family: Roboto, sans-serif !important;
+    font-weight: 800 !important;
+}
