@@ -60,7 +60,7 @@ div#background2 img, div#background3 img{
   height: 90%;
 }
 div#background2 img#i2{
-  width: 35%;
+  width: 25%;
 }
 div#background2 img#i2 ,div#background3 img#i1{
   transform: rotateY(180deg);
