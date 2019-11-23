@@ -1,6 +1,6 @@
 
 nav img{
-  height: 100px;
+  height: 130px;
   object-position: center center;
   object-fit: cover;
   float: left;
@@ -11,7 +11,7 @@ nav ul#menu-desktop {
   padding:0;
   position: absolute;
   left: 47%;
-  top: 6px;
+  top: 30px;
   font-size: 20px;
   width: 52%;
 }
@@ -40,7 +40,7 @@ nav ul#menu-desktop li a.btnS{
   border-radius: 15%;
 }
 div#static{
-  height: 100px;
+  height: 130px;
 }
 div#fixed{
   width: 100%;

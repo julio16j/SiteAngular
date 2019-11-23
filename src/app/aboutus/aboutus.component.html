@@ -1,23 +1,54 @@
 <app-header></app-header>
-<div class="container">
-    <div class="formigas">
-        <img class="formiga" (click)=mudatexto(1) src="assets/igor.png">
-        <p class="todasformigas igor">Igor</p>
 
-        <img class="formiga"   (click)=mudatexto(2) src="assets/daniel.png">
-        <p class="todasformigas daniel">Daniel</p>
-
-        <img class="formiga" (click)=mudatexto(3) src="assets/lucas.png">
-        <p class="todasformigas lucas">Lucas</p>
-
-        <img class="formiga"  (click)=mudatexto(4) src="assets/cayo.png">
-        <p class="todasformigas cayo">Cayo</p>
-
-        <img class="formiga"  (click)=mudatexto(5) src="assets/julio.png">
-        <p class="todasformigas julio">Julio</p>
-        
-
+    <div class="container-grade">
+        <div class="container-img">
+            <div class="container-nome" style="">
+                <p class="nome" style="margin-left:60px;">Igor</p>
+                <p class="funcao" style=" margin-left: 0px;">Organizador</p>
+            </div>
+            
+            <img (click)=mudatexto(1) style="z-index:0 " src="assets/igorU.png">
+        </div>
+        <div class="container-img">
+            <div class="container-nome">
+                <p class="nome" style="margin-left: 60px;">Daniel</p>
+                <p class="funcao" style=" margin-left: 20px;">Designer</p>
+            </div>
+            <img (click)=mudatexto(2) src="assets/danielU.png">
+        </div>
+        <div class="container-img">
+            <div class="container-nome">
+                <p class="nome" style="margin-left: 50px">Lucas</p>
+                <p class="funcao" style=" margin-left: 30px;">CEO</p>
+            </div>
+            <img (click)=mudatexto(3) src="assets/lucasU.png">
+        </div>
+        <div class="container-img">
+            <div class="container-nome">
+                <p class="nome" style="margin-left: 60px">Cayo</p>
+                <p class="funcao" style=" margin-left: 0px;">Programador</p>
+            </div>
+            <img (click)=mudatexto(4) src="assets/cayoU.png">
+        </div>
+        <div class="container-img julio">
+            <div class="container-nome">
+                <p class="nome" style="margin-left: 65px;">Julio</p>
+                <p class="funcao" style=" margin-left: 0px;">Programador</p>
+            </div>
+            <img (click)=mudatexto(5) src="assets/julioU.png">
+        </div>
     </div>
-    <div id="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin justo a vehicula tincidunt. Pellentesque venenatis turpis et urna fringilla sodales. Sed non dignissim sem. Nullam tempor augue vitae eleifend condimentum. In suscipit euismod semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin ultrices tellus vel eros mollis cursus. Donec vestibulum ornare erat, vitae eleifend arcu sollicitudin non. Aliquam mauris nisl, feugiat in venenatis non, tincidunt id nulla. Integer ligula est, blandit aliquet maximus sit amet, porttitor ut dui. Vestibulum ut eros dapibus, venenatis arcu non, pretium odio. Praesent rhoncus neque id velit interdum convallis. In dapibus, orci nec finibus sagittis, elit velit ultrices dolor, ac hendrerit purus turpis non arcu. Nullam convallis odio et viverra pellentesque.</div>
-</div>
+
+    <div class="container-texto">
+        <div id="container-interno-texto"><p id="texto">We are a group of friends who got the initiative to work together, bringing together the highest
+quality of each other to start a computer solutions, development and design company.
+We started this project on 24/07/2019, where we developed our applications, websites, logos and
+brand. We use some projects to test our team skills, and from that point on, we try to work
+harder and more closely giving rise to DevAnts. But why this name? “Dev” means developer
+and “Ants” means ant, ants always work together; and "Devants" in French means front.
+Therefore, we are ahead of developing projects always working together, seeking the best for our clients.</p>
+<img src="assets/refresh.png" class="botao" (click)=mudatexto(6)></div>
+    </div>
+    
+    
 <app-footer></app-footer>

@@ -1,6 +1,6 @@
 section#Main{
     width: 90%;
-    margin: 80px auto;
+    margin: 0 auto;
     position: relative;
     font-size: 35px;
 }
@@ -58,13 +58,17 @@ div#background2 h1:hover, div#background3 h1:hover{
 }
 div#background2 img, div#background3 img{
   height: 90%;
-  width: 30%;
 }
 div#background2 img#i2{
-  width: 35%;
+  width: 25%;
 }
 div#background2 img#i2 ,div#background3 img#i1{
   transform: rotateY(180deg);
+}
+p#TextoDesc{
+  text-align: center;
+  color: white;
+  font-size: 15px;
 }
 @media only screen and (min-width:320px) and (max-width:800px){
   div section img{

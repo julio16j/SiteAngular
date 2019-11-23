@@ -6,24 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  toogle =[];
+  Textos: string[];
   constructor() { }
 
   ngOnInit() {
-
-    this.toogle[0] = "efeito1";
-    this.toogle[1] = "efeito2" ;
-    this.toogle[2] = "efeito3";
-    this.toogle[3] = "efeito4";
-    this.toogle[4] = "efeito5";
+    this.MudaTexto();
+    setInterval(this.MudaTexto, 500);
   }
-  highlight(index){
-    if(this.toogle[index]!="aumente"){
-      this.toogle[index] = "aumente";
+  MudaTexto() {
+    if (this.Textos === undefined) { this.Textos = ['Developing and Designing Solutions', 'A great team with good people', 'Get your idea off the drawing board']; }
+    if (document.getElementById('background1').classList.length > 1) {
+      document.getElementById('TextoDesc').innerHTML = this.Textos[0];
     }
-    else{
-      this.toogle[index] = "diminui";
+    if (document.getElementById('background2').classList.length > 1) {
+      document.getElementById('TextoDesc').innerHTML = this.Textos[1];
     }
+    if (document.getElementById('background3').classList.length > 1) {
+      document.getElementById('TextoDesc').innerHTML = this.Textos[2];
     }
-
+  }
 }

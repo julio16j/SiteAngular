@@ -5,8 +5,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-import { SimulationComponent } from './simulation/simulation.component';
 import { HomeComponent } from './home/home.component';
+import {SimulationComponent} from './simulation/simulation.component'
+import {FormsModule ,ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,15 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     AboutusComponent,
+    HomeComponent,
     SimulationComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

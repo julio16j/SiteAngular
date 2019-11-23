@@ -1,4 +1,7 @@
-
+label{
+  color: black;
+  text-shadow: none;
+}
 .footer{
     background-color: white;
     background-size: 100% 100%;
