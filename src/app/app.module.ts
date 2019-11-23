@@ -7,7 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { HomeComponent } from './home/home.component';
 import {SimulationComponent} from './simulation/simulation.component'
-import {FormsModule ,ReactiveFormsModule } from '@angular/forms';
+import {FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
