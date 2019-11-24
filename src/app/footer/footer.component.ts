@@ -28,7 +28,7 @@ export class FooterComponent implements OnInit {
   }
   EnviarContato() {
     this.Contato = Object.assign({}, this.registerForm.value);
-    this.http.post('http://devants.com.br/contato/contato', this.Contato).subscribe(
+    this.http.post('https://devants.com.br/contato', this.Contato).subscribe(
       response => {console.log(response);
       }, error => {console.log(error, "Deu certo");
       });

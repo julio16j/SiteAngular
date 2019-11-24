@@ -8,19 +8,19 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component: HomeComponent
-  },
-  {
-    path:'Home',
-    component: HomeComponent
-  },
-  {
-    path:'Aboutus',
+    path: '',
     component: AboutusComponent
   },
   {
-    path:'Simulatenow',
+    path: 'Home',
+    component: HomeComponent
+  },
+  {
+    path: 'Aboutus',
+    component: AboutusComponent
+  },
+  {
+    path: 'Simulatenow',
     component: HomeComponent
   },
   
